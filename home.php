@@ -104,6 +104,79 @@
     </div>
 </section>
 
+<section class="aboutOurCompany">
+
+    <div class="image">
+        <img src="images/home-aboutOurCompany-image.png" alt="">
+    </div>
+
+    <div class = "content">
+        <h3>about our company</h3>
+            <p>
+                Welcome to BoyanTravel, where your dream destinations become a reality. 
+                With years of experience in crafting unforgettable journeys,
+                we specialize in providing personalized travel experiences tailored to your unique desires. 
+                Our team of dedicated travel experts ensures that every detail is perfect, 
+                from luxurious accommodations to exclusive adventures, making your trip not just a holiday, 
+                but a lifetime memory. 
+            </p>
+     <a href="about.php" class="btn"> read more </a>
+
+
+    </div>
+
+
+</section>
+
+<section class="trips">
+    <h1 class="heading-title">Trips</h1>
+
+    <div class="box-container">
+      
+        <div class="box">
+            <div class="image">
+                <img src="images/trips1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>New Year 2024 in New York</h3>
+                <p>Experience the magic of New Year's Eve in the heart of New York City. As you usher in 2024 in one of the world's most exciting cities. </p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="images/trips2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Mystical Japan: Tokyo & Beyond</h3>
+                <p>Embark on a captivating journey through Japan, blending ancient traditions with futuristic wonders.</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+      
+        <div class="box">
+            <div class="image">
+                <img src="images/trips3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Tropical Paradise in the Maldives</h3>
+                <p> Escape to the Maldives, a mesmerizing chain of islands in the Indian Ocean, known  luxurious overwater bungalows.</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="load-more">
+        <a href="trip.php" class="btn">Load More</a>
+    </div>
+</section>
+
+
 <section class = "footer">
 
     <div class="box-container">
