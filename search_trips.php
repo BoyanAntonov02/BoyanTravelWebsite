@@ -60,7 +60,7 @@ if (isset($_GET['searchQuery'])) {
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
             $tripName = htmlspecialchars($row['name']);
-            $imagePath = array_key_exists($tripName, $tripImages) ? $tripImages[$tripName] : 'images/default.jpg'; // default image if not found
+            $imagePath = array_key_exists($tripName, $tripImages) ? $tripImages[$tripName] : 'images/default.jpg';
     
             echo "<div class='search-box'>";
             echo "<div class='search-image'><img src='" . $imagePath . "' alt=''></div>";
